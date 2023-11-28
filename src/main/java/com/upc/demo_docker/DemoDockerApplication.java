@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-@RequestMapping("api/demo")
+@RequestMapping("/api/demo")
 public class DemoDockerApplication {
 
 	public static void main(String[] args) {
